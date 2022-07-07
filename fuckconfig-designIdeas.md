@@ -1,1 +1,2 @@
-
+# DesignIdeas
+![DesignIdeas](./fuckconfig.png)
