@@ -1,6 +1,8 @@
 # FuckConfig
 源项目暂时不提供对外支持, 这个参仓库只是其中一些实现方式/原理
 
+[点击查看FuckConfig设计思路](./fuckconfig-designIdeas.md)
+
 ## IOS 如何在线安装 APP?
 
 [Apple Developer Enterprise Program](https://developer.apple.com/programs/enterprise/) 走 items-services 协议
