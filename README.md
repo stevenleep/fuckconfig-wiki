@@ -1,7 +1,8 @@
 [简体中文](./ZH_CN.md)
 
 The source project does not provide external support at the moment, this reference repository is only some of the implementation principles [Click to view](./fuckconfig-designIdeas.md)
-# What is FuckConfig?
+
+## What is FuckConfig?
 Most of my productivity products fall under the Apple and Linux families (I should say basically), and I often need to configure various tools in the process of using them, to name a few simple examples：
 > 1、When I work on Github, I need to create a separate SSH Key for Github, sometimes I need to use my laptop temporarily for company stuff (help Review/MR a bit), I need a new SSH Key for Gitlab; when I manage different services will I still need different SSH Key；<br/>
 > 2、Sometimes I need to configure gitconfig, sometimes npm source, node version, and hosts when I'm developing NPM toolkits and writing projects.;
@@ -12,7 +13,7 @@ Similar to the configuration file above, many tools will have their own：
 
 I often have a headache with all these distributed configuration files, so there is FuckConfig, a Desktop App.
 
-## How to manage profiles
+## How to manage configs
 > As the preliminary stage is only my personal needs, the implementation may not be applicable to all (for example: other students may not exist I specify the notepad tool to open)
 - The basic version provides the function of configuration management, directly scanning the configuration files available under the current user's system, mapping and associating them in the preset configuration files, grouping them for display in the window.
 - Use the NSWorkspace service to look at the current runningAppcations to find an editor that is starting and open it.
